@@ -1,21 +1,23 @@
-# BananaList
+# BananaList 🍌
 
-### An a-peel-ing and simple to-do list
+### An a-peel-ing* and simple to-do list
 
-*BananaList* is a simple to-do list app that aims to help users 
+BananaList is a simple to-do list app that aims to help users 
 keep track of their important tasks to boost productivity. Anyone
-can use *BananaList*, provided they have a working computer!
+can use BananaList, provided they have a working computer!
 
-*BananaList* includes features such as:
-* basic to-do list functionality
-* urgency labels for tasks
-* a point system to make you happy :)
+BananaList includes features such as:
+* basic to-do list functionality 📝
+* urgency labels for tasks ⚠️
+* a point system to make you happy 😊
+
+*haha sorry
 
 ### Why make BananaList?
 
 A to-do list app is on the more practical/useful end of the list
 of potential projects. The nerd part of me also thought that 
-making a to-do list app would be fun and cool.
+making a to-do list app would be *fun* and *cool*.
 
 Also, with this being a course project, it comes with some criteria:
 
@@ -25,7 +27,6 @@ Also, with this being a course project, it comes with some criteria:
 ... and thus my other ideas are dashed.
 
 ### User stories
-
 
 * As a user, I want to be able to add a task to the to-do list
 * As a user, I want to be able to delete a task from the to-do list
@@ -39,11 +40,9 @@ Also, with this being a course project, it comes with some criteria:
 * As a user, when I select the quit option from the application menu, I want the option to save my to-do list to file
 * As a user, I want to be able to load my to-do list from file when the program starts
 
-### Phase 4: Task 2
-First option: Test and design a class that is robust - see Reader class in the persistence package.
 
-### Phase 4: Task 3
-Analysis:
+### Post-Project Analysis
+
 * It is redundant that both the Reader and Writer classes have identical tasksPath and pointsPath 
 fields for the same purpose - to reduce repetition of identical code, a JsonInteractor superclass 
 was created to hold those fields.
@@ -56,3 +55,7 @@ would violate design principles)
 * There is a lack of cohesion in the Task class where there are helper methods that help print the
 desired line in the overridden toString method - those could be combined into a single method to maximize
 cohesion.
+
+### Why BananaList? Why not AppleList?
+
+I like bananas! 🍌
