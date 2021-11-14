@@ -1,6 +1,6 @@
 # BananaList 🍌
 
-### An a-peel-ing* and simple to-do list
+## An a-peel-ing* and simple to-do list
 
 BananaList is a simple to-do list app that aims to help users 
 keep track of their important tasks to boost productivity. Anyone
@@ -13,7 +13,7 @@ BananaList includes features such as:
 
 *haha sorry
 
-### Why make BananaList?
+## Why make BananaList?
 
 A to-do list app is on the more practical/useful end of the list
 of potential projects. The nerd part of me also thought that 
@@ -26,7 +26,7 @@ Also, with this being a course project, it comes with some criteria:
 
 ... and thus my other ideas are dashed.
 
-### User stories
+## User stories
 
 * As a user, I want to be able to add a task to the to-do list
 * As a user, I want to be able to delete a task from the to-do list
@@ -41,7 +41,7 @@ Also, with this being a course project, it comes with some criteria:
 * As a user, I want to be able to load my to-do list from file when the program starts
 
 
-### Post-Project Analysis
+## Post-Project Analysis
 
 * It is redundant that both the Reader and Writer classes have identical tasksPath and pointsPath 
 fields for the same purpose - to reduce repetition of identical code, a JsonInteractor superclass 
@@ -56,6 +56,6 @@ would violate design principles)
 desired line in the overridden toString method - those could be combined into a single method to maximize
 cohesion.
 
-### Why BananaList? Why not AppleList?
+## Why BananaList? Why not AppleList?
 
 I like bananas! 🍌
